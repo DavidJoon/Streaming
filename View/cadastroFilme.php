@@ -3,7 +3,7 @@ include("header.php");
 ?>
 
 <div class="container">
-<form action="../Controller/inserirfilme.php" method="GET" class="row g-3">
+<form action="../Controller/inserirFilme.php" method="get" class="row g-3">
   
   <div class="col-md-8">
     <label for="inputFilme" class="form-label">Filme</label>
@@ -17,7 +17,7 @@ include("header.php");
   
   <div class="col-md-2">
     <label for="inputAno" class="form-label">Ano</label>
-    <input type="number"  name="ano" class="form-control" id="inputAno" placeholder="Ano do filme">
+    <input type="text"  name="ano" class="form-control" id="inputAno" placeholder="Ano do filme">
   </div>
   
   <div class="col-md-10">

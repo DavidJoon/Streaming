@@ -22,12 +22,12 @@ include("header.php");
   
   <div class="col-md-10">
     <label for="inputCapa" class="form-label">Capa</label>
-    <input type="text"  name="capa" class="form-control" id="inpuCapa" placeholder="Capa do filme">
+    <input type="text"  name="capa" class="form-control" id="inputCapa" placeholder="Capa do filme">
   </div>
   
   <div class="col-12">
     <label for="inputURL" class="form-label">URL</label>
-    <input type="text"  name="url" class="form-control" id="inpuURL" placeholder="URL do filme">
+    <input type="text"  name="url" class="form-control" id="inputURL" placeholder="URL do filme">
   </div>
  
   <div class="col-12">

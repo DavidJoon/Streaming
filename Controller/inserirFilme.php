@@ -6,9 +6,10 @@ require_once("../Model/conexao.php");
 extract($_REQUEST,EXTR_OVERWRITE);
 
 if(insereFilme($conexao, $filme, $genero, $sinopse, $ano, $capa, $url)){
-    echo("Filme cadastrado com sucesso");
+    header("Location: ../View/areaFuncionario.php");
 }else{
-    echo("O Filme não foi para o banco de dados");
+    header("Location: ../View/visualizarFilme.php");
 }
+
 
 include_once("../View/footer.php");

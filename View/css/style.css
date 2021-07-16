@@ -1,0 +1,459 @@
+/* ==================================== Funcionário ==================================== */
+
+*{ /* Config para a página toda*/
+	margin: 0px; /* margem externa da página zerada */
+	padding: 0px; /*margem interna da página zerada */
+}
+body{
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR FUNCIONÁRIO */
+.logotipof{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-left: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.textlogo{
+    text-shadow: 1px 1px black;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.navbar{
+    
+    background-color:rgb(30, 165, 154);
+}
+.navbar-nav{
+    margin-left: 100px;
+}
+.nav-item{
+    font-size: large;
+    margin-left: 10px;
+}
+.ola{
+    margin-top: 7px;
+    color: whitesmoke;
+    margin-left: 100px;
+    font-size: large;
+}
+.nav-sair{
+    color: whitesmoke;
+    margin-left: 150px;
+    font-size: large;
+}
+#navbarDropdownMenuLink{
+    color: whitesmoke;
+}
+/* Footer */
+footer{
+    float: left;
+    margin-left: 540px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    clear: both;
+}
+.git{
+    border-radius: 8px;
+    margin-left: 20px;
+    float: left;
+}
+.direitos{
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+}
+.form-label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/* Tabela do Banco de dados */
+table{
+    font-weight: bolder;
+    color: black;
+    font-size: large;
+    background-color: black;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-style: oblique;
+}
+th{
+    color:rgb(30, 165, 154);
+}
+.teste{
+    background-color: whitesmoke;
+}
+.taborganizar{
+    margin-left: 5%;
+    width: 90%;
+}
+.nomefil{
+    width: 10%;
+}
+.genfil{
+    width: 10%;
+}
+.anofil{
+    width: 10%;
+}
+.sinfil{
+    width: 60%;
+}
+.diserie{
+    width: 10%;
+}
+.genserie{
+    width: 30%;
+}
+
+/* Formulário de Login */
+
+#formlogin{
+    color: white;
+    margin-top: 200px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+#formEsqueceusenha{
+    margin-left: 180px;
+    color: white;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.textesqueci{
+    margin-left: 330px;
+    margin-top: 150px;
+    color: white;
+}
+
+/* ==================================== Cliente ==================================== */
+
+/* Main Cliente */
+.mcliente{
+    float: left;
+    width: 1191px;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+/* Section Destaque */
+.carddest{
+    color: whitesmoke;
+    margin-left: 27px;
+    float: left;
+    border-width: 4px;
+    border-color: rgb(30, 165, 154);
+    border-style: solid;
+    border-radius: 20px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+/* Section Filmes, Séries e Animes */
+.cardgen{
+    color: whitesmoke;
+    margin-left: 27px;
+    float: left;
+    border-width: 4px;
+    border-color: rgb(30, 165, 154);
+    border-style: solid;
+    border-radius: 20px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+/* Procurar */
+.procurar{
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(30, 165, 154);
+    margin-left: 486px;
+    text-align: center;
+    float: left;
+    margin-bottom: 40px;
+    background-color: black;
+    border-radius: 15px;
+    height: 40px;
+    width: 210px;
+}
+.proc{
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cards Cliente */
+.cardmiau{
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 214px;
+    height: 355px;
+    margin-right: 5px;
+}
+.card-bodyy{
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    width: 214px;
+}
+.card-img-topp{
+    background-color: rgb(30, 165, 154);
+    border-radius: 5px;
+    width: 214px;
+    height: 310px;
+    float: left;
+}
+
+/* Nomes Filmes, Séries e Animes */
+.card-destaques:hover{
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+}
+.card-filmes:hover{
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+}
+.card-series:hover{
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+}
+.card-animes:hover{
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+}
+
+/* Gêneros */
+.destaquesmiau{
+    width: 140px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: whitesmoke;
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.filmesmiau{
+    width: 90px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: whitesmoke;
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seriesmiau{
+    width: 90px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: whitesmoke;
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.animesmiau{
+    width: 100px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: whitesmoke;
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Botão de busca cliente e Ultimos adicionados */
+.botoes{
+    border-width: 2px;
+    border-color: whitesmoke;
+    background-color: rgb(30, 165, 154);
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+.ultimosadd{
+    width: 270px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: whitesmoke;
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Página deu erro */
+.error{
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(30, 165, 154);;
+    border-radius: 20px;
+    margin-left: 177px;
+    width: 1000px;
+    margin-top: 200px;
+    text-align: center;
+    color: azure;
+    background-color: black;
+}
+.assinar{
+    border-radius: 10px;
+    border-color: whitesmoke;
+    border-width: 3px;
+    color: whitesmoke;
+    background-color: rgb(30, 165, 154);
+    width: 100px;
+    height: 50px;
+
+}
+.emote{
+    margin-bottom: 5px;
+    width: 50px; 
+    height: 50px;
+}
+
+/* ==================================== Funcionário ==================================== */
+
+/* Botao Entrar */
+.letreiro{
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+    border-radius: 10px;
+    border-style: solid;
+    width: 400px;
+    margin-left: 210px;
+    border-color: black;
+    border-width: 3px;
+    color:  black;
+    background-color:whitesmoke;
+}
+.btni{
+    margin-top: 2px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 40px;
+    margin-left: 330px;
+}
+
+/* Pacotes */
+.pacoteum{
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 40px;
+    float: left;
+    background-color: black;
+    width: 250px;
+    height: 500px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(30, 165, 154);;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.pacotedois{
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 30px;
+    float: left;
+    background-color: black;
+    width: 250px;
+    height: 500px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(30, 165, 154);;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.pg{
+    margin-top: 10px;
+    color: #daa520;
+}
+.ps{
+    margin-top: 10px;
+    color: #c0c0c0;
+}
+.butt{
+    border-radius: 10px;
+    border-color: whitesmoke;
+    border-width: 3px;
+    color: whitesmoke;
+    background-color: rgb(30, 165, 154);
+    width: 100px;
+    height: 50px;
+}
+
+/* Imagem de fundo */
+.banmiau{
+    margin-left: 30px;
+    float: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(30, 165, 154);;
+    border-radius: 20px;
+    margin-top: 30px;
+    opacity: 0.5;
+}
+.im{
+    border-radius: 20px;
+}
+
+.cli{
+    margin-left: 280px;
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.fn{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.logon{
+    float: left;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(30, 165, 154);;
+    border-radius: 20px;
+    margin-left: 177px;
+    width: 1000px;
+    margin-top: 200px;
+    text-align: center;
+    color: azure;
+    background-color: black;
+}

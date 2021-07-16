@@ -1,7 +1,6 @@
 <?php
-include("header.php");
-?>
+include_once("../Model/bancoUsuario.php");
+liberaAcesso();
+include("headerr.php");
 
-<?php
 include("footer.php");
-?>

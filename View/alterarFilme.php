@@ -1,5 +1,7 @@
 <?php
-include_once('header.php');
+include_once("../Model/bancoUsuario.php");
+liberaAcesso();
+include_once('headerr.php');
 include_once('../Model/conexao.php');
 include_once('../Model/bancoFilme.php');
 
@@ -10,7 +12,7 @@ $filme = mysqli_fetch_assoc($resul);
 
 ?>
 
-<div class="container">
+<div class="container mt-4">
 
   <form action="../Controller/alteraFilme.php" method="post" class="row g-3">
 
@@ -31,7 +33,7 @@ $filme = mysqli_fetch_assoc($resul);
 
     <div class="col-md-2">
       <label for="inputAno" class="form-label">Ano</label>
-      <input type="text" value="<?=$filme['anofil']?>" name="ano" class="form-control" id="inputAno" placeholder="2000">
+      <input type="text" value="<?=$filme['anofil']?>" name="ano" class="form-control" id="inputAno">
     </div>
 
     <div class="col-md-10">
@@ -44,18 +46,19 @@ $filme = mysqli_fetch_assoc($resul);
       <input type="text" value="<?=$filme['urlfil']?>" name="url" class="form-control" id="inputURL">
     </div>
 
-    <div class="form-floating">
-      <textarea class="form-control" name="sinopse" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"> <?=$filme['sinopsefil']?></textarea>
-      <label for="floatingTextarea2">Sinopse</label>
+    <div class="col-12">
+    <label for="inputSinopse" class="form-label">Sinopse</label>
+    <textarea class="form-control" name="sinopse" placeholder="Digite um resumo do Jogo" id="floatingTextarea2" style="height: 100px"><?=$filme['sinopsefil']?></textarea>
     </div>
 
     <div class="col-12">
-      <button type="submit" class="btn btn-primary">Alterar</button>
+      <button type="submit" class="btn btn-warning">Alterar</button>
     </div>
 
-</div>
-</form>
+    </form>
+
+  </div>
 
 <?php
-include('footer.php')
+include('footer.php');
 ?>

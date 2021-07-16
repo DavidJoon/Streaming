@@ -6,11 +6,10 @@ include_once('../Model/bancoFilme.php');
 extract($_REQUEST,EXTR_OVERWRITE);
 
 if(alterFilme($conexao, $codfil, $filme, $genero, $sinopse, $ano, $capa, $url)){
-echo("<p class='alert alert-primary' role='alert'>O Filme foi alterado com sucesso.</p>");
+header("Location: ../View/visualizarFilme.php");
 }else{
-echo("<p class='alert alert-danger' role='alert'>O Filme foi alterado com sucesso.</p>");
+    header("Location: ../View/areaFuncionario.php");
 }
 
 include_once('../View/footer.php');
-
 ?>
